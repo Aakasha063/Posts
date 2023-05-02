@@ -21,6 +21,7 @@ Here is the python code for our stateless application:
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 from flask import Flask
+
 import random
 
 app = Flask(__name__)
@@ -34,10 +35,14 @@ quotes = [
 ]
 
 @app.route("/")
+
 def random_quote():
+
     return random.choice(quotes)
 
+
 if __name__ == "__main__":
+
     app.run()
     
 ------------------------------------------------------------------------------------------------------------------------------------------------
