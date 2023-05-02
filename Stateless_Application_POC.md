@@ -19,7 +19,6 @@ Our application will consist of a single endpoint that generates a random quote 
 Here is the python code for our stateless application:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-'''python
 from flask import Flask
 
 import random
@@ -37,12 +36,13 @@ quotes = [
 @app.route("/")
 
 def random_quote():
+
     return random.choice(quotes)
 
 
 if __name__ == "__main__":
+
     app.run()
- '''   
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 In the code above, we import the Flask module and create a new Flask instance. We then define a list of quotes and a single endpoint that returns a random quote from the list.
