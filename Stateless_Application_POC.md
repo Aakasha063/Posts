@@ -1,4 +1,5 @@
 **Proof of Concept: Building a Stateless Application with Python**
+
 In today's modern software development landscape, stateless applications have become increasingly popular due to their scalability and flexibility. A stateless application is a type of software application that does not rely on maintaining state information between requests, allowing for improved performance, reliability, and scalability.
 
 In this proof of concept (POC), we will be exploring the development of a stateless application using Python. Specifically, we will be building a simple web application that displays a random quote using a stateless architecture.
