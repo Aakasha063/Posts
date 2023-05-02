@@ -19,7 +19,7 @@ Our application will consist of a single endpoint that generates a random quote 
 Here is the python code for our stateless application:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-'''
+'''python
 from flask import Flask
 
 import random
